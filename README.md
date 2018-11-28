@@ -36,5 +36,5 @@ Or, if you prefer the command-line:
 ### See Also
 
 - [electrum/qrscanner.py](https://github.com/spesmilo/electrum/blob/master/electrum/qrscanner.py) - for how it is integrated into Electrum.
-- [contrib/build-osx/osx.spec](https://github.com/spesmilo/electrum/blob/contrib/build-osx/osx.spec) - for how it's collected and put into the final Electrum.app.
+- [contrib/build-osx/osx.spec](https://github.com/spesmilo/electrum/blob/master/contrib/build-osx/osx.spec) - for how it's collected and put into the final Electrum.app.
 
