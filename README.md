@@ -36,5 +36,5 @@ Or, if you prefer the command-line:
 ### See Also
 
 - [lib/qrscanner.py](https://github.com/Electron-Cash/Electron-Cash/blob/master/lib/qrscanner.py) - for how it is integrated into Electron Cash.
-- [contrib/build-osx/osx.spec](https://github.com/Electron-Cash/Electron-Cash/blob/master/contrib/build-osx/osx.spec) - for how it's collected and put into the final Electron Cash.app.
+- [contrib/osx/osx.spec](https://github.com/Electron-Cash/Electron-Cash/blob/master/contrib/osx/osx.spec) - for how it's collected and put into the final Electron Cash.app.
 
