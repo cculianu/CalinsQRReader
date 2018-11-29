@@ -53,7 +53,7 @@
     NSError *error;
     self.button.hidden = YES;
 
-#if defined(__MAC_10_14) && __MAC_OS_X_VERSION_MAX_ALLOWED >= __MAC_10_14
+//#if defined(__MAC_10_14) && __MAC_OS_X_VERSION_MAX_ALLOWED >= __MAC_10_14
     if (@available(macOS 10.14, *)) {
         // macOS 10.14 or later code path -- ask user for permission to access camera
         AVAuthorizationStatus st = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
@@ -75,7 +75,7 @@
             return NO;
         }
     }
-#endif
+//#endif
 
 
     AVCaptureDevice *captureDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
